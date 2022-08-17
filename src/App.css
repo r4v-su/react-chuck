@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+}
+.App {
+  text-align: center;
+  z-index : 1;
+  background-color: black;
+}
+
+.modal {
+  display: flex;
+  z-index: 2;
+  color: antiquewhite;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transform: translateY(25%);
+}
+.backdrop{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: #00000087;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 125vh;
+  z-index: 3;
+}
+.joke{
+  display: block;
+  width: auto;
+  padding: 10px;
+  background-color: black;
+  color: gold;
+  max-width: 250px;
+}
+.closeModalBtn{
+  max-width: 250px;
+  display: block;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+  background-color: gold;
+  color: black;
+  margin-top: 10px;
+}
+.sortBtn{
+  font-size: 1.5rem;
+  display: block;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+  background-color: gold;
+  color: black;
+  margin-top: 10px;
+}
+.category {
+  font-size: 1.25rem;
+  display: block;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgb(58, 51, 51);
+  margin: 1px;
+  color: gold;
+  z-index: 0;
+  box-shadow: 0px 0px 0px px gold;
+
+}
+.category:hover {
+  opacity: 0.5;
+}
+
+button {
+  border: none;
+}
