@@ -1,4 +1,4 @@
-# Chuck norris.io app
+# Chucknorris.io app
 
 SPA built with external api. Getting confident with fetch and async/await functions.
 
